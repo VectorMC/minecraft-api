@@ -6,7 +6,7 @@
 
     <groupId>tc.oc</groupId>
     <artifactId>minecraft-api</artifactId>
-    <version>1.11-SNAPSHOT</version>
+    <version>1.12-SNAPSHOT</version>
 
     <repositories>
         <repository>
