@@ -3,8 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>tc.oc</groupId>
+    <groupId>net.avicus</groupId>
     <artifactId>minecraft-api</artifactId>
     <version>1.12-SNAPSHOT</version>
 
@@ -17,22 +16,26 @@
             <id>pa-releases</id>
             <url>https://repo.extension.ws/content/repositories/releases</url>
         </repository>
+        <repository>
+            <id>avicus-public</id>
+            <url>https://repo.avicus.net/content/groups/public/</url>
+        </repository>
     </repositories>
 
     <distributionManagement>
         <repository>
-            <id>pa-deployment</id>
-            <url>https://repo.extension.ws/content/repositories/releases</url>
+            <id>avicus-repo</id>
+            <url>https://repo.avicus.net/content/repositories/releases-private/</url>
         </repository>
         <snapshotRepository>
-            <id>pa-deployment</id>
-            <url>https://repo.extension.ws/content/repositories/snapshots</url>
+            <id>avicus-repo</id>
+            <url>https://repo.avicus.net/content/repositories/snapshots-private/</url>
         </snapshotRepository>
     </distributionManagement>
 
     <dependencies>
         <dependency>
-            <!-- Should match the version in SportBukkit and Bungee -->
+            <!-- Should match the version in Magnet and Bungee -->
             <groupId>com.google.code.findbugs</groupId>
             <artifactId>findbugs</artifactId>
             <version>3.0.0</version>
@@ -55,9 +58,9 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>tc.oc</groupId>
+            <groupId>net.avicus</groupId>
             <artifactId>bungeecord-chat</artifactId>
-            <version>1.11-SNAPSHOT</version>
+            <version>1.12-SNAPSHOT</version>
         </dependency>
 
         <!-- testing -->
