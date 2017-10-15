@@ -9,14 +9,6 @@
 
     <repositories>
         <repository>
-            <id>pa-snapshots</id>
-            <url>https://repo.extension.ws/content/repositories/snapshots</url>
-        </repository>
-        <repository>
-            <id>pa-releases</id>
-            <url>https://repo.extension.ws/content/repositories/releases</url>
-        </repository>
-        <repository>
             <id>avicus-public</id>
             <url>https://repo.avicus.net/content/groups/public/</url>
         </repository>
