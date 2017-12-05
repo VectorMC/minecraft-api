@@ -4,7 +4,7 @@ import com.google.common.base.Charsets;
 import java.util.Locale;
 import java.util.UUID;
 import java.util.regex.Pattern;
-import net.avicus.text.StringUtils;
+import net.avicus.minecraft.api.text.StringUtils;
 
 public interface UserUtils {
 

@@ -1,4 +1,4 @@
-package net.avicus.text;
+package net.avicus.minecraft.api.text;
 
 public interface StringUtils {
 
